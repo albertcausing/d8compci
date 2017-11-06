@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "47e57a36e97850f6c413547fad9dd87e",
-    "content-hash": "85394068ddcac01b43f3eb741be5a51f",
+    "hash": "af549f2364a19cf57dd4ae1a91e2aae1",
+    "content-hash": "c8b93d212f37661e07f461373dd76245",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1823,6 +1823,52 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
+            "name": "drupal/drupal8_parallax_theme",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/drupal8_parallax_theme",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drupal8_parallax_theme-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "553f285a14fcddf8eaf04b717243c023e78d0bb0"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1484152683",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "zymphonies.com",
+                    "homepage": "https://www.drupal.org/user/2280310"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/drupal8_parallax_theme",
+            "support": {
+                "source": "http://cgit.drupalcode.org/drupal8_parallax_theme"
             }
         },
         {
