@@ -40,3 +40,4 @@ if (file_exists($local_settings)) {
 $settings['install_profile'] = 'standard';
 
 /* Start Hacking Here */
+/* This is being Hacked */
